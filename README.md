@@ -18,13 +18,20 @@
 
 <!-- ████████████████████████████████  ABOUT  ████████████████████████████████ -->
 
-<img align="right" width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="coding gif"/>
+<table align="right">
+<tr><td align="center">
+<img width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="coding gif"/>
+</td></tr>
+<tr><td align="center">
+<a href="https://github.com/Dazuka-n/Dazuka-n/raw/main/assets/Krishna_Nagpal_Resume.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84_Download_My_Resume-58A6FF?style=for-the-badge&logoColor=white" alt="Download Resume"/></a>
+</td></tr>
+</table>
 
 ```python
 class Krishna:
     def __init__(self):
         self.name        = "Krishna Nagpal"
-        self.role        = "AI Engineer @ TeenyTechTrek"
+        self.role        = "AI Engineer"
         self.location    = "Mohali, Punjab 🇮🇳"
         self.education   = ["MCA @ IGNOU (2025-27)",
                             "BCA @ GGDSD, Panjab University (2022-25)"]
@@ -75,12 +82,11 @@ class Krishna:
 
 <div align="center">
 
-| What | Where | Status |
-|:---|:---|:---:|
-| 🤖 MCP-native agentic pipelines with Claude | TeenyTechTrek | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
-| 🔬 Fine-tuning LLaMA & Mistral with LoRA / QLoRA | Personal Research | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
-| 📊 MLflow CI/CD for experiment tracking & versioning | TeenyTechTrek | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
-| 🧠 Multi-step reasoning loops with fault-tolerant tool invocation | TeenyTechTrek | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
+| What | Status |
+|:---|:---:|
+| 🤖 MCP-native agentic pipelines with Claude | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
+| 🔬 Fine-tuning LLaMA & Mistral with LoRA / QLoRA | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
+| 🧠 Multi-step reasoning loops with fault-tolerant tool invocation | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
 
 </div>
 
@@ -107,7 +113,6 @@ class Krishna:
 ![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-384dim-22C55E?style=for-the-badge)
 ![LangSmith](https://img.shields.io/badge/LangSmith-Observability-1C3C3C?style=for-the-badge)
 ![LangFuse](https://img.shields.io/badge/LangFuse-Tracing-F59E0B?style=for-the-badge)
-![MLflow](https://img.shields.io/badge/MLflow-MLOps-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 
 ---
 
@@ -135,7 +140,7 @@ class Krishna:
 
 ---
 
-### ⚙️ DevOps / MLOps / Cloud
+### ⚙️ DevOps / Cloud
 
 [![My Skills](https://skillicons.dev/icons?i=docker,vercel,git,github&theme=dark)](.)
 
@@ -144,7 +149,6 @@ class Krishna:
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-Workflow-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![IBM Cloud](https://img.shields.io/badge/IBM_Cloud-1261FE?style=for-the-badge&logo=ibmcloud&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 
 </div>
 
@@ -152,33 +156,13 @@ class Krishna:
 
 <!-- ████████████████████████████████  PROJECTS  ████████████████████████████████ -->
 
-## 🚀 Featured Projects
+## 🚀 Featured Project
 
 <div align="center">
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### ✍️ IntelliWrite
-**AI-Powered AEO / GEO Blog Engine**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Dazuka-n/Intelliwrite)
-[![Live](https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel)](https://intelliwrite-neon.vercel.app/)
-
-Raw prompt → publish-ready AEO blog + LinkedIn / Twitter / Reddit posts in one API call.
-
-**Architecture:**
-- 🤖 **10-agent AGNO pipeline** — Researcher → Planner → Writer → Optimizer → Editor + 3 social writers + Social QA
-- 🔍 **Qdrant RAG** + DuckDuckGo live search grounding
-- 🌐 **React 18 + Vite SPA** with real-time pipeline step tracker
-- 📡 **MCP Server** (Starlette SSE) for Claude / Cursor integration
-- ☁️ Vercel (API + SPA) · Railway + Docker (MCP)
-
-`FastAPI` `AGNO` `Gemini Flash` `Qdrant` `React` `MCP` `Vercel`
-
-</td>
-<td width="50%" valign="top">
+<td width="60%" valign="top">
 
 ### 🎭 OtakuMood
 **Mood-Driven Anime Recommender**
@@ -211,9 +195,9 @@ Type a feeling. Get anime. It just *gets* you.
 
 ```
 🟢  AI Engineer              TeenyTechTrek          March 2026 – Present
-    └─ MCP server architecture · LoRA/QLoRA fine-tuning LLaMA & Mistral · MLflow CI/CD
+    └─ MCP server architecture · LoRA/QLoRA fine-tuning LLaMA & Mistral
 
-🔵  AI & ML Intern           Welzin.ai              Aug 2025 – March 2026
+🔵  AI & ML Intern           Welzin.ai              Aug 2025 – Feb 2026
     └─ 25+ n8n automation workflows · 10+ REST APIs · AGNO multi-agent systems
        RAG pipelines · Docker/Vercel deployments · 30% accuracy uplift
 
@@ -236,24 +220,12 @@ Type a feeling. Get anime. It just *gets* you.
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Dazuka-n&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Dazuka-n&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" alt="GitHub Stats"/>
 <img width="49%" src="https://streak-stats.demolab.com/?user=Dazuka-n&theme=tokyonight&hide_border=true" alt="Streak Stats"/>
 
 <br/>
 
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dazuka-n&theme=tokyonight&hide_border=true&layout=compact&include_all_commits=true&count_private=true" alt="Top Languages"/>
-
-</div>
-
----
-
-<!-- ████████████████████████████████  TROPHIES  ████████████████████████████████ -->
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Dazuka-n&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub Trophies"/>
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dazuka-n&theme=tokyonight&hide_border=true&layout=compact&count_private=true" alt="Top Languages"/>
 
 </div>
 
