@@ -23,7 +23,7 @@
 <img width="340" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="coding gif"/>
 </td></tr>
 <tr><td align="center">
-<a href="https://github.com/Dazuka-n/Dazuka-n/raw/main/assets/Krishna_Nagpal_Resume.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84_Download_My_Resume-58A6FF?style=for-the-badge&logoColor=white" alt="Download Resume"/></a>
+<a href="https://github.com/Dazuka-n/Dazuka-n/resume.pdf"><img src="https://img.shields.io/badge/%F0%9F%93%84_Download_My_Resume-58A6FF?style=for-the-badge&logoColor=white" alt="Download Resume"/></a>
 </td></tr>
 </table>
 
@@ -39,11 +39,11 @@ class Krishna:
     @property
     def focus(self):
         return [
-            "🤖  Agentic AI & Multi-Agent Pipelines",
-            "🔍  RAG Pipelines & Vector Retrieval",
-            "📡  MCP Servers & Client Integrations",
-            "🔌  REST APIs & Third-Party Integration",
-            "📊  LLM Evaluation & Observability",
+            "Agentic AI & Multi-Agent Pipelines",
+            "RAG Pipelines & Vector Retrieval",
+            "MCP Servers & Client Integrations",
+            "REST APIs & Third-Party Integration",
+            "LLM Evaluation & Observability",
         ]
 
     @property
